@@ -226,7 +226,8 @@ h1, h2, h3 {
   background: #000;
 }
 
-.video-frame iframe {
+.video-frame iframe,
+.video-frame video {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -234,7 +235,8 @@ h1, h2, h3 {
   border: 0;
 }
 
-.video-frame[data-video-id] {
+.video-frame[data-video-id],
+.video-frame[data-video-src] {
   cursor: pointer;
   background-size: cover;
   background-position: center;
