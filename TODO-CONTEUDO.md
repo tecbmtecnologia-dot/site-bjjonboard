@@ -2,6 +2,12 @@
 
 Itens que precisam de revisão humana antes (ou depois) de publicar, porque não havia certeza absoluta no site original ou porque exigem uma decisão do dono do site.
 
+## Status do domínio (bjjonboard.com.br) — concluído em 16/09/2026
+- Domínio registrado no registro.br, usando os servidores DNS deles (DNS Simples: a.sec.dns.br / b.sec.dns.br).
+- Zona DNS configurada: registros A da raiz (`bjjonboard.com.br`) apontando para os 4 IPs do GitHub Pages (185.199.108/109/110/111.153) e CNAME de `www.bjjonboard.com.br` para `tecbmtecnologia-dot.github.io.`
+- GitHub Pages (repo `tecbmtecnologia-dot/site-bjjonboard`): custom domain configurado, "DNS check successful", certificado SSL emitido e "Enforce HTTPS" habilitado.
+- Testado e funcionando: `https://bjjonboard.com.br` e `https://www.bjjonboard.com.br` (este último redireciona para o domínio raiz), ambos sem erro de certificado.
+
 ## Confirmado com certeza (não precisa mexer)
 - WhatsApp "Compras / Garanta sua cabine": (11) 91903-0209 — https://wa.me/5511919030209
 - WhatsApp "Patrocinadores": (11) 99145-9652 — https://wa.me/5511991459652
