@@ -15,6 +15,7 @@ Itens que precisam de revisão humana antes (ou depois) de publicar, porque não
 - Não há nenhuma conta de e-mail criada em nenhum dos domínios na HostGator (`@bjjonboard.com.br`, `@bjjonboard.com`, `@bjjonboard.bjjonboard.com.br`), então não havia risco de quebrar e-mail.
 - Configurado um redirecionamento permanente (301) no cPanel do HostGator: `bjjonboard.com` (com ou sem `www`) → `https://bjjonboard.com.br`. O DNS e a zona antiga do `.com` (registros de cPanel/e-mail, mesmo sem uso) não foram alterados, só foi adicionado o redirecionamento.
 - Testado e funcionando: `bjjonboard.com` e `www.bjjonboard.com` redirecionam corretamente para o site no GitHub Pages.
+- Certificado HTTPS do `bjjonboard.com` conferido (via crt.sh): emitido pela Let's Encrypt, cobre `bjjonboard.com` (mesmo certificado do cPanel que cobre `bjjonboard.com.br`), válido de 23/07/2026 a 21/10/2026. `https://bjjonboard.com` carrega sem erro de certificado antes de redirecionar.
 
 ## Confirmado com certeza (não precisa mexer)
 - WhatsApp "Compras / Garanta sua cabine": (11) 91903-0209 — https://wa.me/5511919030209
