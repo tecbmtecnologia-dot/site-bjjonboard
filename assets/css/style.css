@@ -199,6 +199,16 @@ h1, h2, h3 {
 
 .recap-grid img { width: 100%; height: 100%; object-fit: cover; border-radius: 4px; }
 
+.recap-grid .video-frame.recap-video {
+  max-width: none;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.recap-grid .video-frame.recap-video video { object-fit: cover; }
+
 .recap-note {
   text-align: center;
   font-family: "Barlow", sans-serif;
