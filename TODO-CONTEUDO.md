@@ -7,6 +7,14 @@ Itens que precisam de revisão humana antes (ou depois) de publicar, porque não
 - Zona DNS configurada: registros A da raiz (`bjjonboard.com.br`) apontando para os 4 IPs do GitHub Pages (185.199.108/109/110/111.153) e CNAME de `www.bjjonboard.com.br` para `tecbmtecnologia-dot.github.io.`
 - GitHub Pages (repo `tecbmtecnologia-dot/site-bjjonboard`): custom domain configurado, "DNS check successful", certificado SSL emitido e "Enforce HTTPS" habilitado.
 - Testado e funcionando: `https://bjjonboard.com.br` e `https://www.bjjonboard.com.br` (este último redireciona para o domínio raiz), ambos sem erro de certificado.
+- Deploy verificado: workflow "pages build and deployment" concluído com sucesso após o push.
+
+## Domínio bjjonboard.com (o .com, sem .br) e conta HostGator
+- Esse `.com` é um domínio separado, registrado/gerenciado dentro da conta HostGator (diferente do `.com.br`, que está no registro.br). Antes usava os nameservers e a hospedagem antiga do HostGator.
+- A conta HostGator foi mantida ativa (não foi cancelada) — decisão do dono do site.
+- Não há nenhuma conta de e-mail criada em nenhum dos domínios na HostGator (`@bjjonboard.com.br`, `@bjjonboard.com`, `@bjjonboard.bjjonboard.com.br`), então não havia risco de quebrar e-mail.
+- Configurado um redirecionamento permanente (301) no cPanel do HostGator: `bjjonboard.com` (com ou sem `www`) → `https://bjjonboard.com.br`. O DNS e a zona antiga do `.com` (registros de cPanel/e-mail, mesmo sem uso) não foram alterados, só foi adicionado o redirecionamento.
+- Testado e funcionando: `bjjonboard.com` e `www.bjjonboard.com` redirecionam corretamente para o site no GitHub Pages.
 
 ## Confirmado com certeza (não precisa mexer)
 - WhatsApp "Compras / Garanta sua cabine": (11) 91903-0209 — https://wa.me/5511919030209
